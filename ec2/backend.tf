@@ -10,8 +10,8 @@ terraform {
   # If you don't have one yet, comment out this whole backend block
   # to use local state instead (fine for testing, not for team use).
   backend "s3" {
-    bucket = "your-terraform-state-bucket"
-    key    = "ec2/terraform.tfstate"
+    bucket = "ssstfstate"
+    key    = "ec2/ec2.tfstate"
     region = "us-west-2"
   }
 }

@@ -1,11 +1,7 @@
 name: EC2 Provision
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'ec2/**'
+  
   workflow_dispatch:
 
 permissions:
