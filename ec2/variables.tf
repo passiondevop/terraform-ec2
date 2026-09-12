@@ -1,0 +1,14 @@
+variable "aws_region" {
+  type    = string
+  default = "us-west-2"
+}
+
+variable "ami_id" {
+  type        = string
+  description = "AMI ID for the instances"
+}
+
+variable "instance_type" {
+  type    = string
+  default = "t3.micro"
+}
