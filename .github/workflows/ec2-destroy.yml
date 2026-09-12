@@ -32,5 +32,4 @@ jobs:
 
       - name: Terraform Destroy
         run: terraform destroy -auto-approve
-        env:
-          TF_VAR_ami_id: ${{ vars.EC2_AMI_ID }}
+   
